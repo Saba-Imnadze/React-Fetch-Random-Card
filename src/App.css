@@ -1,0 +1,54 @@
+.center {
+  min-height: 100vh;
+  min-width: 100%;
+  padding-top: 2rem;
+  background: #af9ab2;
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+}
+.contact-card {
+  margin: 1rem 4rem;
+  display: flex;
+  padding: 10px;
+  color: #ffffff;
+  background-color: rgb(42, 84, 104);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  box-shadow: 10px 10px 25px -16px rgba(0, 0, 0, 0.75);
+  border-radius: 10px;
+  min-width: 500px;
+  min-height: 150px;
+  max-width: 500px;
+  max-height: 125px;
+  margin-bottom: 10px;
+  background: #820b8a;
+  box-sizing: border-box;
+}
+.contact-header {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.contact-card img {
+  border-radius: 5px;
+}
+
+.contact-card p {
+  margin-left: 10px;
+  margin-top: 0;
+}
+
+button {
+  margin: 10px 15px;
+  border-radius: 5px;
+  background: #d5fff3;
+  outline: none;
+  border: none;
+}
+
+content {
+  background: #af9ab2;
+}
